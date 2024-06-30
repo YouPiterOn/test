@@ -12,7 +12,7 @@ module.exports = {
         'jest/globals': true
     },
     extends: ['eslint:recommended', 'plugin:react/recommended', 'plugin:prettier/recommended', 'plugin:storybook/recommended', 'plugin:storybook/recommended'],
-    plugins: ['react', 'react-hooks', 'prettier'],
+    plugins: ['react', 'react-hooks', 'prettier', 'jest'],
     rules: {
         'prettier/prettier': 'error',
         'react/react-in-jsx-scope': 'off',
